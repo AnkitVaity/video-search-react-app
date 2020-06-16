@@ -1,0 +1,11 @@
+.video-item {
+    display: flex !important;
+    align-items: center !important;
+    cursor: pointer;
+}
+
+/* .item is added because there was another css with higher priority assigning the max-width to image */
+/* Therefore without .item no change will be seen in width of image */
+.video-item.item img {
+    max-width: 180px;
+}
